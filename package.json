@@ -1,0 +1,17 @@
+cat > package.json << 'EOF'
+{
+  "name": "ig-monitor-bot-v2",
+  "version": "2.0.0",
+  "description": "Instagram ban/unban monitor - Termux ready",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "reset": "rm -f watchlist.json"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "author": "BrahmjotCodez(1ttp)"
+}
+EOF
